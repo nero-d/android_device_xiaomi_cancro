@@ -57,6 +57,9 @@ TARGET_KERNEL_CONFIG               := lineageos_cancro_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 BOARD_DTBTOOL_ARGS                 := -2
 
+# Use Snapdragon LLVM Compiler
+TARGET_USE_SDCLANG := true
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE       := true
 TARGET_INIT_VENDOR_LIB      := libinit_cancro
